@@ -7,5 +7,5 @@ session_start();
         header('location: Vista/pagLoginPrueba.php');
     }
 
-//prueba 2
+//prueba 3
 ?>
