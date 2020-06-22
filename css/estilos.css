@@ -1,0 +1,36 @@
+body{
+    background: url(../Img/fosn.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+.logo{
+    color: white;
+    width: 100%;
+    position: fixed;
+    background: #da1714;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.neko{
+    text-align: center;
+}
+.categ{
+    text-align: center;
+    top:50%;
+    transform: translateY(30%);
+    width: 200%;
+}
+.prod-categ{
+    border-radius: 45px;
+    padding: 0px;
+    border: 3px solid black;
+}
+.registro{
+    margin: 0px 500px;
+    position: fixed;
+}
