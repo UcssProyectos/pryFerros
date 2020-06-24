@@ -10,10 +10,10 @@
     <body>
         <a href="">
             <div class="logo"><h1><span>DEPARTAMENTOS DE LA </span><strong>EMPRESA</strong></h1></div>
-            
+
         </a>
-           <center><br><br><br><br><div><h2></h2></div></center>
-        
-    </body>
+    <center><br><br><br><br><div><h2></h2></div></center>
+
+</body>
 
 </html>

@@ -1,2 +1,2 @@
 # pryFerros
-Logeo de la Empresa Ferros SACASTOSssss
+Logeo de la Empresa Ferros S.A.C
