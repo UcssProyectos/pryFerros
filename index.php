@@ -5,5 +5,5 @@
     }else{
         header('location: Vista/pagLoginPrueba.php');
     }
-//prueba 345
+//prueba ayuda
 ?>
