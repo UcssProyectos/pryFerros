@@ -21,8 +21,8 @@
 
                 </div>
                 <div class="menu">
-                    <a href="pagLoginPrueba.php"><li class="module-login active">Iniciar Sesión</li></a>
-                    <a href="pagRegistroPrueba.php"><li class="module-register">Registrarse</li></a>
+                    <a href="pagLogin.php"><li class="module-login active">Iniciar Sesión</li></a>
+                    <a href="pagRegistro.php"><li class="module-register">Registrarse</li></a>
                 </div>
             </div>
 

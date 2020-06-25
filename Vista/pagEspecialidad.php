@@ -27,7 +27,7 @@
             foreach($vec as $k=>$d){
               ?>
                <td>
-                   <a href="pagEmpleadoPrueba.php?id=<?=$d[0]?>" title="Ir a <?=$d[1]?>" class="link">
+                   <a href="pagEmpleado.php?id=<?=$d[0]?>" title="Ir a <?=$d[1]?>" class="link">
                        <center><img src="../Img/<?=$d[0]?>.jpg" height="200" width="200" class="prod-categ"></center>
                        <br><center><h5><?=$d[1]?></h5></center>
                    </a>

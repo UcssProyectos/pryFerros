@@ -33,7 +33,7 @@
                     }
                     ?>
         </table>
-        <a href="pagEspecialidadPrueba.php" title="Volver" class="link"><H1>Volver</H1></a>
+        <a href="pagEspecialidad.php" title="Volver" class="link"><H1>Volver</H1></a>
         <a href="../cerrar_sesion.php" title="Cerrar" class="link"><H1>Cerrar Sesion</H1></a>
     </center>
 </body>

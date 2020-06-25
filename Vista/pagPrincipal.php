@@ -85,7 +85,7 @@
                     <tr><td><h3>Usuario:<?= $vec[1] ?></h3>
                     <tr><td><h3>Correo:<?= $vec[2] ?></h3>
                 </table>
-                <a href="pagEspecialidadPrueba.php"><h4>Especialidades</h4></a>
+                <a href="pagEspecialidad.php"><h4>Especialidades</h4></a>
                 <a href="../cerrar_sesion.php"><h4>Cerrar sesion</h4></a>
             </center>  
         </div>

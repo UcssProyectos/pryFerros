@@ -20,8 +20,8 @@
 
                 </div>
                 <div class="menu">
-                    <a href="pagLoginPrueba.php"><li class="module-login">Login</li></a>
-                    <a href="pagRegistroPrueba.php"><li class="module-register active">Register</li></a>
+                    <a href="pagLogin.php"><li class="module-login">Login</li></a>
+                    <a href="pagRegistro.php"><li class="module-register active">Register</li></a>
                 </div>
             </div>
 
