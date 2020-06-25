@@ -41,7 +41,7 @@ class Conexion {
     //grabar usuarios
     function GrabaUser($usr, $cor, $pas) {//lista especialiadades
         $vec = array();
-        $sql = "insert into usuario(usuario,correo,clave ) values('$usr','$cor','$pas')";
+        $sql = "insert into usuario (usuario,correo,clave) values('$usr','$cor','$pas')";
         $res = mysqli_query($this->conecta(), $sql) or
                 die(mysqli_error($this->conecta()));
     }

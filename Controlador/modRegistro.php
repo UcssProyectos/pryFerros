@@ -10,11 +10,11 @@ if (isset($_POST['Enviar'])) {
         $mensaje = "Rellene los datos faltantes";
     } else {
         if ($_REQUEST["clave"] == $_REQUEST["clave2"]) {
-            $x->GrabaUser($_REQUEST["usu"], $_REQUEST["coro"], $_REQUEST["pass1"]);
+            $x->GrabaUser($_REQUEST["usuario"], $_REQUEST["correo"], $_REQUEST["clave"]);
             header("location: ../Vista/pagLogin.php");
         } else {
             $mensaje = "Claves no coinciden";
         }
     }
 }
-            
+       
