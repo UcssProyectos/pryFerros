@@ -26,6 +26,18 @@ class Conexion {
         return $vec;
     }
 
+    function ObtenerId($usr) {//lista especialiadades
+        $vec = array();
+        $sql = "select id from usuario where usuario='$usr'";
+        $res = mysqli_query($this->conecta(), $sql) or
+                die(mysqli_error($this->conecta()));
+        $vec = array();
+        if ($f = mysqli_fetch_array($res)) {
+            $vec = $f;
+        }
+        return $vec;
+    }
+
     //grabar usuarios
     function GrabaUser($usr, $cor, $pas) {//lista especialiadades
         $vec = array();

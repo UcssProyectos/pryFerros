@@ -11,7 +11,7 @@ if (isset($_POST['Enviar'])) {
     } else {
         if ($_REQUEST["clave"] == $_REQUEST["clave2"]) {
             $x->GrabaUser($_REQUEST["usu"], $_REQUEST["coro"], $_REQUEST["pass1"]);
-            header("location: ../Vista/pagLoginPrueba.php");
+            header("location: ../Vista/pagLogin.php");
         } else {
             $mensaje = "Claves no coinciden";
         }

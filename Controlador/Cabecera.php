@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -10,10 +8,7 @@
     <body>
         <a href="">
             <div class="logo"><h1><span>DEPARTAMENTOS DE LA </span><strong>EMPRESA</strong></h1></div>
-
         </a>
     <center><br><br><br><br><div><h2></h2></div></center>
-
 </body>
-
 </html>
