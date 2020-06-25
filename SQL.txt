@@ -1,0 +1,37 @@
+Use bdweb2;
+CREATE TABLE IF NOT EXISTS departamento
+   (
+      iddep int AUTO_INCREMENT PRIMARY KEY,
+      nomdep varchar(255)
+   );
+CREATE TABLE IF NOT EXISTS empleado
+   (
+      idemp varchar(6) PRIMARY KEY,
+      dni varchar(8),
+      nomemp varchar(60),
+      correo varchar(80),
+      telf varchar(9),
+      pais varchar(40),
+      fnac DATE,
+      sueldo DECIMAL(19,4),
+      iddep int
+   );
+CREATE TABLE IF NOT EXISTS usuario
+   (
+      id int AUTO_INCREMENT PRIMARY KEY,
+      correo varchar(123),
+      usuario varchar(100),
+      clave varchar(200)
+   );
+Insert into Departamento (nomdep) values ("Marketing");
+Insert into Departamento (nomdep) values ("Comercial");
+Insert into Departamento (nomdep) values ("Adm. y Conta.");
+Insert into Departamento (nomdep) values ("Finanzas y Gestion");
+Insert into Empleado values ('EMP001','01234354','Sanchez Bellido, Carlos','cancbe@gmail.com','943525761','Perú','1997-02-02',2346,1);
+Insert into Empleado values ('EMP002','01432354','Sanchez Bellido, Mateo','cancbe@gmail.com','943525761','Perú','1997-02-02',2346,1);
+Insert into Empleado values ('EMP003','52334354','Sanchez Tulio, Carlos','canadd@gmail.com','943525761','Perú','1997-02-02',2326,2);
+Insert into Empleado values ('EMP004','01234354','Diano Bellido, Carlos','caasd@gmail.com','943525761','Perú','1997-02-02',2341,2);
+Insert into Empleado values ('EMP005','01237554','Bodoque Bermudez, Agustin','cafgsbe@gmail.com','943525761','Perú','1997-02-02',23226,3);
+Insert into Empleado values ('EMP006','01234745','Sanchez Bellido, Carlos','casfge@gmail.com','943525761','Perú','1997-02-02',2346,3);
+Insert into Empleado values ('EMP007','01345354','Velazo Bellido, Tito','ggrdf@gmail.com','943525761','Perú','1997-02-02',21236,4);
+Insert into Empleado values ('EMP008','01233442','Perez Roma, Mater','gsjkf@gmail.com','943525761','Perú','1997-02-02',236,4);
