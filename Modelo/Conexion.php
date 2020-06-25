@@ -8,7 +8,7 @@ class Conexion {
 
     function conecta() {
         if ($this->cn == null) {
-            $this->cn = mysqli_connect("localhost", "root", "", "bdweb");
+            $this->cn = mysqli_connect("localhost", "root", "", "bdweb2");
         }
         return $this->cn;
     }
