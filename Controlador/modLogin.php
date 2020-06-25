@@ -17,7 +17,7 @@ if (isset($_SESSION["login"])) {
         else {
             $vece[] = [$_REQUEST["txtusr"], $_REQUEST["txtpas"]];
             $_SESSION["login"] = $vece;
-            header("location: ../Vista/pagPrincipal.php?id=$vec[0]");
+            header("location: ../Vista/pagPrincipal.php");
         }
     }
 }
